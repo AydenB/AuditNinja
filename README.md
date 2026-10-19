@@ -45,16 +45,9 @@ The $227K is the extra cost compared with the $4.99M average breach, not the tot
 
 You can change the limits (how many `*ALLOBJ` profiles is too many, how many days counts as dormant) in the `LIMITS` block at the top of the scorecard statement.
 
-## What it does not cover yet
-
-- Default passwords (IBM i has a command for this, `ANZDFTPWD`, but no SQL service)
-- Stored server credentials and validation lists
-- Authority on your business libraries and the IFS
-- TLS versions and certificate expiry
-
 ## Status
 
-Tested on IBM i 7.5 with an ordinary profile. The audit checks have not yet been run by a profile with `*ALLOBJ` or `*AUDIT`, so please report anything odd there. Reports from other releases are welcome. Open an issue and include the SQL error message and your IBM i release.
+Tested on IBM i 7.5. Reports from other releases are welcome. Open an issue and include the SQL error message and your IBM i release.
 
 ## Source
 
